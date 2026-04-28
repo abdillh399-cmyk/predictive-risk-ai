@@ -1,5 +1,5 @@
 /**
- * ARIST Dashboard Layout
+ * تنبؤ المخاطر الذكي Dashboard Layout
  * Design: Professional Enterprise Dark Dashboard
  * Colors: Dark navy background, blue primary, green for AI status
  * Layout: Fixed sidebar (right) + main content area
@@ -84,7 +84,7 @@ export default function Layout({ children }: LayoutProps) {
             <span className="text-xs font-mono" style={{ color: "oklch(0.6 0.02 240)" }}>AI</span>
           </div>
           <span className="text-sm font-bold" style={{ color: "oklch(0.85 0.01 220)" }}>
-            ARIST - نظام تقييم المخاطر بالذكاء الاصطناعي
+            تنبؤ المخاطر الذكي - Predictive Risk AI
           </span>
         </div>
         <div className="flex items-center gap-4">
@@ -128,7 +128,7 @@ export default function Layout({ children }: LayoutProps) {
               return (
                 <button
                   key={item.id}
-                  className={`arist-nav-btn ${isActive ? "active" : ""}`}
+                  className={`predictive-risk-nav-btn ${isActive ? "active" : ""}`}
                   onClick={() => {
                     navigate(item.path);
                     setSidebarOpen(false);
@@ -159,7 +159,7 @@ export default function Layout({ children }: LayoutProps) {
           {/* Footer */}
           <div className="p-3 border-t border-border">
             <p className="text-xs text-center" style={{ color: "oklch(0.45 0.02 240)" }}>
-              نظام ARIST مدعوم بالذكاء الاصطناعي لأرامكو السعودية
+              نظام تنبؤ المخاطر الذكي مدعوم بالذكاء الاصطناعي لأرامكو السعودية
             </p>
           </div>
         </aside>

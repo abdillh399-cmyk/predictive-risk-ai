@@ -1,5 +1,5 @@
 /**
- * ARIST - Previous Reports Page
+ * تنبؤ المخاطر الذكي - Previous Reports Page
  * Design: Professional Enterprise Dark Dashboard
  * Features: Reports archive, search, filter, view/download
  */
@@ -125,7 +125,7 @@ export default function PreviousReports() {
         {/* Reports Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
           {filtered.map((report) => (
-            <div key={report.id} className="arist-card p-4 flex flex-col gap-3">
+            <div key={report.id} className="predictive-risk-card p-4 flex flex-col gap-3">
               {/* Report Header */}
               <div className="flex items-start gap-3">
                 <div

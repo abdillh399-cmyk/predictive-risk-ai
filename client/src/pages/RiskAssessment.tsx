@@ -1,5 +1,5 @@
 /**
- * ARIST - AI Risk Assessment Page
+ * تنبؤ المخاطر الذكي - AI Risk Assessment Page
  * Design: Professional Enterprise Dark Dashboard
  * Features: Interactive risk matrix, AI analysis, risk scoring
  */
@@ -103,7 +103,7 @@ export default function RiskAssessment() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Risk Matrix */}
-          <div className="arist-card overflow-hidden">
+          <div className="predictive-risk-card overflow-hidden">
             <div className="section-header">
               <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
                 مصفوفة تقييم المخاطر
@@ -170,7 +170,7 @@ export default function RiskAssessment() {
           </div>
 
           {/* Risk Categories */}
-          <div className="arist-card overflow-hidden">
+          <div className="predictive-risk-card overflow-hidden">
             <div className="section-header">
               <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
                 تصنيفات المخاطر
@@ -262,7 +262,7 @@ export default function RiskAssessment() {
           </div>
 
           {/* AI Recommendations */}
-          <div className="arist-card overflow-hidden lg:col-span-2">
+          <div className="predictive-risk-card overflow-hidden lg:col-span-2">
             <div className="section-header">
               <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
                 توصيات الذكاء الاصطناعي

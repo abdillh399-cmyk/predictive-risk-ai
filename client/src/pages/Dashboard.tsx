@@ -1,5 +1,5 @@
 /**
- * ARIST Dashboard - Main Control Panel
+ * تنبؤ المخاطر الذكي Dashboard - Main Control Panel
  * Design: Professional Enterprise Dark Dashboard
  * Colors: Dark navy (#0d1117), Blue primary, Green AI status
  * Layout: Two-panel - status right, content left (RTL)
@@ -160,7 +160,7 @@ export default function Dashboard() {
           <div
             className="relative overflow-hidden"
             style={{
-              backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663600042681/9Wi2dnuiNZMhTk6s454NxT/arist-hero-bg-XavzviU8MxW5rHoRUGBV5M.webp)",
+              backgroundImage: "url(https://d2xsxph8kpxj0f.cloudfront.net/310519663600042681/9Wi2dnuiNZMhTk6s454NxT/predictive-risk-hero-bg-XavzviU8MxW5rHoRUGBV5M.webp)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               minHeight: "180px",
@@ -181,10 +181,10 @@ export default function Dashboard() {
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold" style={{ color: "oklch(0.95 0.01 220)" }}>
-                    نظام ARIST
+                    نظام تنبؤ المخاطر الذكي
                   </h1>
                   <p className="text-sm" style={{ color: "oklch(0.65 0.02 240)" }}>
-                    نظام تقييم المخاطر بالذكاء الاصطناعي — Dammam, KSA
+                    Predictive Risk AI — Dammam, KSA
                   </p>
                 </div>
                 <div className="mr-auto ai-badge flex items-center gap-1.5">
@@ -232,7 +232,7 @@ export default function Dashboard() {
                   <button
                     key={action.path}
                     onClick={() => navigate(action.path)}
-                    className="arist-nav-btn text-right"
+                    className="predictive-risk-nav-btn text-right"
                     style={{ padding: "1rem 1.25rem" }}
                   >
                     <span className="text-sm font-medium flex-1">{action.label}</span>
@@ -243,7 +243,7 @@ export default function Dashboard() {
             </div>
 
             {/* System Health */}
-            <div className="arist-card p-4">
+            <div className="predictive-risk-card p-4">
               <div className="flex items-center gap-2 mb-4">
                 <CheckCircle size={15} style={{ color: "oklch(0.65 0.18 145)" }} />
                 <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>

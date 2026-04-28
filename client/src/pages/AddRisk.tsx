@@ -1,5 +1,5 @@
 /**
- * ARIST - Add/Edit Risk Page
+ * تنبؤ المخاطر الذكي - Add/Edit Risk Page
  * Design: Professional Enterprise Dark Dashboard
  * Features: Risk form, categories, likelihood/impact selectors
  */
@@ -148,7 +148,7 @@ export default function AddRisk() {
         {/* Add/Edit Form */}
         {showForm && (
           <div
-            className="arist-card p-5 mb-6 slide-in"
+            className="predictive-risk-card p-5 mb-6 slide-in"
           >
             <h2 className="text-sm font-semibold mb-4" style={{ color: "oklch(0.85 0.01 220)" }}>
               {editingId !== null ? "تعديل الخطر" : "إضافة خطر جديد"}
@@ -267,7 +267,7 @@ export default function AddRisk() {
         )}
 
         {/* Risks Table */}
-        <div className="arist-card overflow-hidden">
+        <div className="predictive-risk-card overflow-hidden">
           <div className="section-header">
             <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
               سجل المخاطر ({risks.length})

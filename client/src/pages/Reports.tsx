@@ -1,5 +1,5 @@
 /**
- * ARIST - Reports Generation Page
+ * تنبؤ المخاطر الذكي - Reports Generation Page
  * Design: Professional Enterprise Dark Dashboard
  * Features: Report creation, facility info, export options
  */
@@ -87,7 +87,7 @@ export default function Reports() {
           {/* Report Form */}
           <div className="lg:col-span-2 flex flex-col gap-4">
             {/* Report Type */}
-            <div className="arist-card p-5">
+            <div className="predictive-risk-card p-5">
               <h2 className="text-sm font-semibold mb-4 flex items-center gap-2" style={{ color: "oklch(0.85 0.01 220)" }}>
                 <FileText size={14} style={{ color: "oklch(0.55 0.2 240)" }} />
                 نوع التقرير
@@ -111,7 +111,7 @@ export default function Reports() {
             </div>
 
             {/* Facility & Date */}
-            <div className="arist-card p-5">
+            <div className="predictive-risk-card p-5">
               <h2 className="text-sm font-semibold mb-4 flex items-center gap-2" style={{ color: "oklch(0.85 0.01 220)" }}>
                 <Building size={14} style={{ color: "oklch(0.55 0.2 240)" }} />
                 معلومات المنشأة والفترة الزمنية
@@ -142,7 +142,7 @@ export default function Reports() {
             </div>
 
             {/* Report Options */}
-            <div className="arist-card p-5">
+            <div className="predictive-risk-card p-5">
               <h2 className="text-sm font-semibold mb-4" style={{ color: "oklch(0.85 0.01 220)" }}>
                 محتويات التقرير
               </h2>
@@ -200,7 +200,7 @@ export default function Reports() {
 
           {/* Preview Panel */}
           <div className="flex flex-col gap-4">
-            <div className="arist-card overflow-hidden">
+            <div className="predictive-risk-card overflow-hidden">
               <div className="section-header">
                 <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
                   معاينة التقرير
@@ -266,7 +266,7 @@ export default function Reports() {
             </div>
 
             {/* Quick Stats */}
-            <div className="arist-card p-4">
+            <div className="predictive-risk-card p-4">
               <h3 className="text-xs font-semibold mb-3" style={{ color: "oklch(0.7 0.02 240)" }}>
                 إحصائيات سريعة
               </h3>

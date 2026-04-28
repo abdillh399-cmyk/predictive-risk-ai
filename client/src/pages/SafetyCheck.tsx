@@ -1,5 +1,5 @@
 /**
- * ARIST - Safety Standards Check Page
+ * تنبؤ المخاطر الذكي - Safety Standards Check Page
  * Design: Professional Enterprise Dark Dashboard
  * Features: Safety checklist, compliance status, standards verification
  */
@@ -103,7 +103,7 @@ export default function SafetyCheck() {
             { label: "تحذير", value: warnCount, color: "oklch(0.65 0.18 80)" },
             { label: "غير مطابق", value: failCount, color: "oklch(0.6 0.22 25)" },
           ].map((stat, idx) => (
-            <div key={idx} className="arist-card p-4">
+            <div key={idx} className="predictive-risk-card p-4">
               <div className="text-2xl font-bold mb-1" style={{ color: stat.color }}>
                 {stat.value}
               </div>
@@ -115,7 +115,7 @@ export default function SafetyCheck() {
         </div>
 
         {/* Compliance Progress */}
-        <div className="arist-card p-4 mb-6">
+        <div className="predictive-risk-card p-4 mb-6">
           <div className="flex items-center justify-between mb-2">
             <span className="text-sm font-semibold" style={{ color: "oklch(0.85 0.01 220)" }}>
               مستوى المطابقة الإجمالي
@@ -166,7 +166,7 @@ export default function SafetyCheck() {
             return (
               <div
                 key={item.id}
-                className="arist-card p-4 flex items-start gap-4"
+                className="predictive-risk-card p-4 flex items-start gap-4"
               >
                 <div
                   className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
